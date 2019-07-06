@@ -10,3 +10,15 @@ Feature: Tester mon application
   Scenario: Recuperation de la liste des stations
     When Recuperation de la liste des stations
     Then Le resultat doit etre la liste des stations superieur a zero
+    
+  Scenario: Recuperation de la liste des conducteurs
+    When Recuperation de la liste des conducteurs
+    Then Le resultat doit etre la liste des conducteurs superieur a zero
+    
+      Scenario: Recuperation de la liste des metros
+    When Recuperation de la liste des metros
+    Then Le resultat doit etre la liste des metros superieur a zero
+    
+      Scenario: Recuperation de la liste des passagers
+    When Recuperation de la liste des passagers
+    Then Le resultat doit etre la liste des passagers superieur a zero
