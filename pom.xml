@@ -60,7 +60,7 @@
 			<testResource>
 				<directory>src/test/java</directory>
 				<includes>
-					<include>*/.feature</include>
+					<include>**/*.feature</include>
 				</includes>
 			</testResource>
 		</testResources>
